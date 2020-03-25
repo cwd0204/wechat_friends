@@ -17,6 +17,7 @@ input('按ENTER键继续...')
  
  
 friends = itchat.get_friends(update=True)
+#friends = itchat.get_friends(update=False)
 lenght = len(friends)
  
 for i in range(1, lenght):
